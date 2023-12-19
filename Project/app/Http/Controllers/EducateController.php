@@ -5,7 +5,6 @@ namespace App\Http\Controllers;
 use App\Models\CourseCateModel;
 use App\Models\EducateM;
 use App\Models\UserRoleModel;
-
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Validator;

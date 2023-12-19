@@ -21,7 +21,7 @@ class AuthServiceProvider extends ServiceProvider
      * @var array<class-string, class-string>
      */
     protected $policies = [
-        'App\Model'=>'App\Policies\ModelPolicy'
+        // 'App\Model'=>'App\Policies\ModelPolicy'
     ];
 
     /**
@@ -29,16 +29,16 @@ class AuthServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        $user=Auth::user();
-        $CCate = EducateM::with('course_cates')->get();
-        dd($CCate);
-        foreach ($CCate as $CCates) {
-            foreach ($CCates->Edu as $Edu) {
-                $EduArray[$Edu->name][] = $Edu->id;
-                # code...
-            }
-            # code...
-        }
+        // $user=Auth::user();
+        // $CCate = EducateM::with('course_cates')->get();
+        // dd($CCate);
+        // foreach ($CCate as $CCates) {
+        //     foreach ($CCates->Edu as $Edu) {
+        //         $EduArray[$Edu->name][] = $Edu->id;
+        //         # code...
+        //     }
+        //     # code...
+        // }
         // foreach ($EduArray as $title => $CCate) {
         //     Gate::define($title, function ($user) use ($CCate,$title){
         //         $CCates = Cache::remember('users'.Auth::id(),3600,function(){

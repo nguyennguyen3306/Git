@@ -11,9 +11,9 @@ class CourseCateModel extends Model
     protected $fillable = ['id', 'name', 'idEdu','status', 'created_at', 'updated_at'];
     use HasFactory;
 
-    public function CousreCate()
-    {
-        return $this->belongsToMany(EducateM::class);
-    }
+    // public function CousreCate()
+    // {
+    //     return $this->belongsToMany(EducateM::class);
+    // }
 }
 

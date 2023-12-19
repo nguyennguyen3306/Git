@@ -86,7 +86,7 @@ class UserRoleController extends Controller
             'rolename'=> 'required|unique:role_tbl,name',
         ], [
             'id.required'=> 'Chưa có mã loại tài khoản',
-            'id.exists'=> 'id đã tồn tại',
+            'id.exists'=> 'id không tồn tại',
             'rolename.required'=> 'Chưa có tên loại',
             'rolename.unique'=>'Tên loại bị trùng'
         ]);

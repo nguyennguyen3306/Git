@@ -29,7 +29,7 @@ Route::get('/', function () {
 Route::controller(UserController::class)->group(function () {
     Route::get('/users', 'index');
     Route::post('/user', 'create');
-    Route::post('/users', 'store');
+    Route::post('/user1', 'store');
     Route::get('/logout', 'logout');
     Route::post('/deleteUser', 'deleteUser');
 });
@@ -69,7 +69,8 @@ Route::controller(EducateController::class)->group(function () {
 
 Route::controller(CourseCateController::class)->group(function () {
     Route::get('/CourseCate', 'index');
-    Route::post('/createCourseCate', 'create');
+    Route::post('/addCourseCate', 'create');
+    Route::post('/editCourseCate', 'edit');
     // Route::get('/logout', 'logout');
     // Route::post('/deleteUser', 'deleteUser');
 });

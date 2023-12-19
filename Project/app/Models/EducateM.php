@@ -10,8 +10,8 @@ class EducateM extends Model
     protected $table = "edu_tbl";
     protected $fillable = ['id', 'name', 'status', 'created_at', 'updated_at'];
     use HasFactory;
-    public function Educate()
-    {
-        return $this->hasOne(CourseCateModel::class);
-    }
+    // public function Educate()
+    // {
+    //     return $this->hasOne(CourseCateModel::class);
+    // }
 }

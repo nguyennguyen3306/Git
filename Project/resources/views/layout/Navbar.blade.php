@@ -34,7 +34,7 @@
     <div class="be-wrapper be-fixed-sidebar">
         <nav class="navbar navbar-expand fixed-top be-top-header">
             <div class="container-fluid">
-                <div class="be-navbar-header"><a class="navbar-brand" href="index.html"></a>
+                <div class="be-navbar-header"><a class="navbar-brand" href="/"></a>
                 </div>
 
                 <div class="page-title"><span>Dashboard</span></div>
@@ -197,13 +197,13 @@
             </div>
         </nav>
         <div class="be-left-sidebar">
-            <div class="left-sidebar-wrapper"><a class="left-sidebar-toggle" href="#">Dashboard</a>
+            <div class="left-sidebar-wrapper"><a class="left-sidebar-toggle" href="/">Dashboard</a>
                 <div class="left-sidebar-spacer">
                     <div class="left-sidebar-scroll">
                         <div class="left-sidebar-content">
                             <ul class="sidebar-elements">
                                 <li class="divider">Menu</li>
-                                <li class="active"><a href="index.html"><i
+                                <li class="active"><a href="/"><i
                                             class="icon mdi mdi-home"></i><span>Dashboard</span></a>
                                 </li>
                                 <li class="parent"><a href="#"><i class="icon mdi mdi-face"></i><span>UI

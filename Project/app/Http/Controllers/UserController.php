@@ -126,9 +126,8 @@ class UserController extends Controller
     }
     public function store(Request $request)
     {
-        $user = UserRoleModel::where('status', 1)->get();
-        dd($user);
-        return view("main.user", compact('user'));
+        $user = User::where('status', 1)->get();
+        return response()->json($user);
     }
 
     /**
